@@ -11,7 +11,9 @@ So I wrote a test program ('test.py') with most of the code from the 'user_stats
 
 So not sure where the key error is at this point.
 
-Thanks for your help.
+A couple other notes: 'bikeshare_main_with_functions.py' is not set up to automatically read 'nyc_short.csv' ... and my program worked when I had the functions in separate file that the main program called.  For whatever reason, Udacity wanted everything in a single file, which is the 'bikeshare_main_with_functions.py' file included here.
+
+Thanks for your help,
 
 Aren Scanlan-Emigh
 aren.se@gmail.com 
