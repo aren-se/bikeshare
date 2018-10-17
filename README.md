@@ -1,18 +1,15 @@
 # bikeshare
-I'm getting a KeyError:
+I'm getting
 
-KeyError: 0
+KeyError: Gender 
 
+when i run the program
 
-linked to line 370 in "bikeshare.py", which is the second line here:
+Oddly, I only get it when I choose Washington while running the program (the user gets to choose from Washington, New York, and Chicago).
 
-    for i in range(size):
-        temp_start = df['Start Station'][i]
-        temp_end = df['End Station'][i]
-        temp_pair = (temp_start, temp_end)
-        trip_pair_list.append(temp_pair)
+I've tried titling a new csv file as 'washington.csv', but still get the problem.  And 'Gender' is a column in all three cities' csv files (I've checked the column headings, they all say "Gender").  So the problem must be in one of the dictionaries, but i can't see any typos.  Yet the dictionaries don't have 'Gender' in them.
 
-Odd thing is that I don't get the error in a test file that uses the above code ("untitled11.py")
+A puzzle.
 
 Thanks for your help,
 
